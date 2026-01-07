@@ -22,3 +22,8 @@ variable "environment" {
   description = "Deployment environment (dev, prod)"
   type        = string
 }
+
+variable "vpc_id" {
+  description = "VPC ID where EC2 security group will be created"
+  type        = string
+}
